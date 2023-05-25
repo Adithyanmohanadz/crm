@@ -1,0 +1,141 @@
+.popup{
+    /* background-color: rgb(255, 255, 255);
+    width: 500px;
+    padding: 0px 10px;
+    position: absolute;
+    transform: translate(-0%,-50%);
+    left: 65%;
+    top: 50%; */
+    transform: translate(0%,0%);
+    left: 1%;
+    top: 10%;
+    height: 260px;
+    position: absolute;
+    border-radius: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: none;
+    z-index: 1;
+}
+
+.popup button{
+    display: block;
+    margin: 0 0 0 auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* .popup a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    text-decoration: none;
+    padding: 5px 0;
+} */
+
+/* country code */
+.intl-tel-input,
+.iti{
+  width: 100%;
+}
+/* //country code */
+
+/* scrollbar */
+.scrollbar-style::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar-style::-webkit-scrollbar
+{
+	width: 5px;
+    height: 5px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar-style::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.092);
+	background-color: #58585a;
+}
+/* //scrollbar */
+
+  /* search-box */
+  .search {
+    flex: 0 0 auto;
+    width: 78.666667%;
+  }
+  /* search-box */
+
+  /* select */
+  .select-box {
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.select-box:focus {
+    background-image:
+        linear-gradient(45deg, green 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, green 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+}
+
+
+.select-box:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+/* select */
+
+/* select searchbox colour */
+.choices[data-type*=select-one] .choices__input{
+  background: #3447671e !important;
+    border-radius: 10px !important;
+    margin-bottom: 5px !important;
+    
+}
+/* select searchbox colour */
+
+.social-btn{
+    margin-left: -18px !important; 
+    margin-top: -8px !important;
+    border: unset !important;
+}
+
+
